@@ -2,11 +2,22 @@
   "name": "@ovh-ux/rollup-plugin-less-inject",
   "version": "0.0.0",
   "description": "A rollup plugin for injecting less files as css into HTML document's head",
+  "keywords": [
+    "less",
+    "plugin",
+    "rollup"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ovh-ux/rollup-plugin-less-inject.git"
+  },
+  "license": "BSD-3-Clause",
+  "author": "OVH SAS",
   "main": "dist/cjs/index.js",
-  "jsnext:main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
   "scripts": {
-    "build": "rollup -c",
     "prebuild": "rm -rf dist/*",
+    "build": "rollup -c",
     "lint": "run-p lint:js lint:md",
     "lint:js": "eslint --quiet --fix --format=pretty .",
     "lint:md": "eslint --quiet --fix --format=pretty --ext .md .",
@@ -14,22 +25,11 @@
     "version": "npx conventional-changelog-cli -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
     "postversion": "git push && git push --tags"
   },
-  "keywords": [
-    "rollup",
-    "plugin",
-    "less"
-  ],
-  "author": "OVH SAS",
-  "license": "BSD-3-Clause",
   "dependencies": {
     "estree-walker": "^0.6.1",
     "less": "^3.9.0",
     "rollup": "^1.15.6",
     "rollup-pluginutils": "^2.8.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ovh-ux/rollup-plugin-less-inject.git"
   },
   "devDependencies": {
     "@babel/core": "^7.4.5",
