@@ -1,4 +1,4 @@
-# Contributing to component-rollup-config
+# Contributing to rollup-plugin-less-inject
 
 This project accepts contributions. In order to contribute, you should
 pay attention to a few things:
@@ -17,8 +17,8 @@ The contributions should be submitted through Github Pull Requests.
 
 # Licensing for new files
 
-component-rollup-config is licensed under a BSD-3-Clause license. Anything
-contributed to component-rollup-config must be released under this license.
+rollup-plugin-less-inject is licensed under a BSD-3-Clause license. Anything
+contributed to rollup-plugin-less-inject must be released under this license.
 
 When introducing a new file into the project, please make sure it has a
 copyright header making clear under which license it's being released.
