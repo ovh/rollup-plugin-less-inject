@@ -1,0 +1,49 @@
+{
+  "name": "@ovh-ux/rollup-plugin-less-inject",
+  "version": "0.0.0",
+  "description": "A rollup plugin for injecting less files as css into HTML document's head",
+  "main": "dist/cjs/index.js",
+  "jsnext:main": "dist/cjs/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "prebuild": "rm -rf dist/*",
+    "lint": "run-p lint:js lint:md",
+    "lint:js": "eslint --quiet --fix --format=pretty .",
+    "lint:md": "eslint --quiet --fix --format=pretty --ext .md .",
+    "test": "yarn run lint",
+    "version": "npx conventional-changelog-cli -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
+    "postversion": "git push && git push --tags"
+  },
+  "keywords": [
+    "rollup",
+    "plugin",
+    "less"
+  ],
+  "author": "OVH SAS",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "estree-walker": "^0.6.1",
+    "less": "^3.9.0",
+    "rollup": "^1.15.6",
+    "rollup-pluginutils": "^2.8.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ovh-ux/rollup-plugin-less-inject.git"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@commitlint/cli": "^8.0.0",
+    "@commitlint/config-angular": "^8.0.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-formatter-pretty": "^2.1.1",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-markdown": "^1.0.0",
+    "husky": "^2.4.1",
+    "lint-staged": "^8.2.1",
+    "npm-run-all": "^4.1.5",
+    "rollup-plugin-babel": "^4.3.2"
+  }
+}

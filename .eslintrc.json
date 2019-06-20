@@ -1,0 +1,14 @@
+{
+  "extends": "airbnb-base",
+  "plugins": ["markdown"],
+  "env": {
+    "browser": true
+  },
+  "overrides": [{
+    "files": ["**/*.md"],
+    "rules": {
+      "import/no-unresolved": "off",
+      "no-undef": "off"
+    }
+  }]
+}
