@@ -13,6 +13,7 @@ export default {
           },
         }],
       ],
+      runtimeHelpers: true,
     }),
   ],
   output: [{
@@ -25,7 +26,11 @@ export default {
   external: [
     'crypto',
     'estree-walker',
+    'fs',
     'less',
+    'path',
     'rollup-pluginutils',
+    'url',
+    'util',
   ],
 };
