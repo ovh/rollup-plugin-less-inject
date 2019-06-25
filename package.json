@@ -32,6 +32,7 @@
   "dependencies": {
     "estree-walker": "^0.6.1",
     "less": "^3.9.0",
+    "lodash": "^4.17.11",
     "rollup-pluginutils": "^2.8.1"
   },
   "devDependencies": {

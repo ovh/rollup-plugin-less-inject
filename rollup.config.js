@@ -27,6 +27,7 @@ export default {
     'crypto',
     'estree-walker',
     'fs',
+    'lodash/assign',
     'less',
     'path',
     'rollup-pluginutils',
