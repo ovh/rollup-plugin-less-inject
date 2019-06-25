@@ -59,15 +59,11 @@ export default function plugin(options = {}) {
     },
     async transform(code, id) {
       if (!filter(id)) return null;
-      try {
-        const css = await lessRender(code, options.option);
-        return {
-          code: `export default cssInject${uid}(${JSON.stringify(css.toString())});`,
-          map: null, // sourcemap must be inlined since it's style injection
-        };
-      } catch (error) {
-        throw error;
-      }
+      const css = await lessRender(code, options.option);
+      return {
+        code: `export default cssInject${uid}(${JSON.stringify(css.toString())});`,
+        map: null, // sourcemap must be inlined since it's style injection
+      };
     },
   };
 }
