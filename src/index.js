@@ -2,6 +2,7 @@ import less from 'less';
 import { createFilter } from 'rollup-pluginutils';
 import { randomBytes } from 'crypto';
 import { walk } from 'estree-walker';
+import assign from 'lodash/assign';
 
 // random string identifier to avoid function name collision inside a chunk
 const uid = randomBytes(8).toString('hex');
@@ -59,10 +60,10 @@ export default function plugin(options = {}) {
     },
     async transform(code, id) {
       if (!filter(id)) return null;
-      const css = await lessRender(code, options.option);
+      const css = await lessRender(code, assign(options.option, { filename: id }));
       return {
         code: `export default cssInject${uid}(${JSON.stringify(css.toString())});`,
-        map: null, // sourcemap must be inlined since it's style injection
+        map: { mappings: '' }, // sourcemap must be inlined since it's style injection
       };
     },
   };
