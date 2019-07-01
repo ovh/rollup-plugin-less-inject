@@ -1,6 +1,6 @@
 {
   "name": "@ovh-ux/rollup-plugin-less-inject",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A rollup plugin for injecting less files as css into HTML document's head",
   "keywords": [
     "less",
