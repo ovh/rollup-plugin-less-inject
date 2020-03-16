@@ -1,3 +1,7 @@
+## [1.0.4](https://github.com/ovh-ux/rollup-plugin-less-inject/compare/v1.0.3...v1.0.4) (2020-03-16)
+
+
+
 ## [1.0.3](https://github.com/ovh-ux/rollup-plugin-less-inject/compare/v1.0.2...v1.0.3) (2019-11-14)
 
 
