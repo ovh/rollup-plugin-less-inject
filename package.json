@@ -7,17 +7,18 @@
     "plugin",
     "rollup"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ovh-ux/rollup-plugin-less-inject.git"
+  "homepage": "https://github.com/ovh/rollup-plugin-less-inject#readme",
+  "bugs": {
+    "url": "https://github.com/ovh/rollup-plugin-less-inject/issues"
   },
+  "repository": "ovh/rollup-plugin-less-inject",
   "license": "BSD-3-Clause",
   "author": "OVH SAS",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
   "files": [
     "dist"
   ],
-  "main": "dist/cjs/index.js",
-  "module": "dist/esm/index.js",
   "scripts": {
     "build": "npx rimraf dist && rollup -c",
     "lint": "run-p lint:js lint:md",
