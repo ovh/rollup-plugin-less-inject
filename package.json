@@ -34,7 +34,7 @@
     "minimist": "^1.2.3"
   },
   "dependencies": {
-    "estree-walker": "^0.9.0",
+    "estree-walker": "^2.0.1",
     "less": "^3.9.0",
     "lodash": "^4.17.15",
     "rollup-pluginutils": "^2.8.2"
