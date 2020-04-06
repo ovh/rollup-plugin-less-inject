@@ -7,21 +7,25 @@
 ## Install
 
 ```sh
-$ yarn add @ovh-ux/rollup-plugin-less-inject -D
+$ yarn add -D @ovh-ux/rollup-plugin-less-inject
 ```
 
 ## Usage
 
 ```js
-import { rollup } from 'rollup';
+// rollup.config.js
 import lessInject from '@ovh-ux/rollup-plugin-less-inject';
 
-rollup({
-  input: 'main.js',
+export default {
+  input: 'src/main.js',
+  output: {
+    file: 'dist/main.js',
+    format: 'cjs',
+  },
   plugins: [
     lessInject(),
   ],
-});
+};
 ```
 
 ### Options
@@ -51,6 +55,12 @@ Options for [less](http://lesscss.org/usage/#programmatic-usage).
 ```sh
 $ yarn test
 ```
+
+## Related
+
+- [@ovh-ux/rollup-plugin-less-tilde-importer](https://github.com/ovh/rollup-plugin-less-tilde-importer) - Provide ~ (tilde) prefix support.
+
+See more: https://github.com/rollup/plugins.
 
 ## Contributing
 
