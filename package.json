@@ -30,6 +30,9 @@
     "version": "npx conventional-changelog-cli -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
     "postversion": "git push && git push --tags"
   },
+  "resolutions": {
+    "minimist": "^1.2.3"
+  },
   "dependencies": {
     "estree-walker": "^0.9.0",
     "less": "^3.9.0",
