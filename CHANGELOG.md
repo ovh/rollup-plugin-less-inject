@@ -1,3 +1,12 @@
+## [1.0.6](https://github.com/ovh/rollup-plugin-less-inject/compare/v1.0.5...v1.0.6) (2020-08-18)
+
+
+### Bug Fixes
+
+* **deps:** add some resolutions ([f952b06](https://github.com/ovh/rollup-plugin-less-inject/commit/f952b0625c01dae8779f057c78c4af5b9460870b))
+
+
+
 ## [1.0.5](https://github.com/ovh/rollup-plugin-less-inject/compare/v1.0.4...v1.0.5) (2020-04-06)
 
 
