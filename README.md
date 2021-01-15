@@ -2,7 +2,7 @@
 
 > A [Rollup](https://rollupjs.org/) plugin for injecting [Less](http://lesscss.org/) files as CSS into HTML document's head.
 
-[![Downloads](https://badgen.net/npm/dt/@ovh-ux/rollup-plugin-less-inject)](https://npmjs.com/package/@ovh-ux/rollup-plugin-less-inject) [![Dependencies](https://badgen.net/david/dep/ovh/rollup-plugin-less-inject)](https://npmjs.com/package/@ovh-ux/rollup-plugin-less-inject?activeTab=dependencies) [![Dev Dependencies](https://badgen.net/david/dev/ovh/rollup-plugin-less-inject)](https://npmjs.com/package/@ovh-ux/rollup-plugin-less-inject?activeTab=dependencies) [![Gitter](https://badgen.net/badge/gitter/ovh-ux/blue?icon=gitter)](https://gitter.im/ovh/ux)
+[![Downloads](https://badgen.net/npm/dt/@ovh-ux/rollup-plugin-less-inject)](https://npmjs.com/package/@ovh-ux/rollup-plugin-less-inject) [![Dependencies](https://badgen.net/david/dep/ovh/rollup-plugin-less-inject)](https://npmjs.com/package/@ovh-ux/rollup-plugin-less-inject?activeTab=dependencies) [![Dev Dependencies](https://badgen.net/david/dev/ovh/rollup-plugin-less-inject)](https://npmjs.com/package/@ovh-ux/rollup-plugin-less-inject?activeTab=dependencies) 
 
 ## Install
 
