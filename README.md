@@ -2,7 +2,7 @@
 
 > A [Rollup](https://rollupjs.org/) plugin for injecting [Less](http://lesscss.org/) files as CSS into HTML document's head.
 
-[![Downloads](https://badgen.net/npm/dt/@ovh-ux/rollup-plugin-less-inject)](https://npmjs.com/package/@ovh-ux/rollup-plugin-less-inject) [![Dependencies](https://badgen.net/david/dep/ovh/rollup-plugin-less-inject)](https://npmjs.com/package/@ovh-ux/rollup-plugin-less-inject?activeTab=dependencies) [![Dev Dependencies](https://badgen.net/david/dev/ovh/rollup-plugin-less-inject)](https://npmjs.com/package/@ovh-ux/rollup-plugin-less-inject?activeTab=dependencies) 
+[![Downloads](https://badgen.net/npm/dt/@ovh-ux/rollup-plugin-less-inject)](https://npmjs.com/package/@ovh-ux/rollup-plugin-less-inject) [![Dependencies](https://badgen.net/david/dep/ovh/rollup-plugin-less-inject)](https://npmjs.com/package/@ovh-ux/rollup-plugin-less-inject?activeTab=dependencies) [![Dev Dependencies](https://badgen.net/david/dev/ovh/rollup-plugin-less-inject)](https://npmjs.com/package/@ovh-ux/rollup-plugin-less-inject?activeTab=dependencies)
 
 ## Install
 
@@ -55,12 +55,6 @@ Options for [less](http://lesscss.org/usage/#programmatic-usage).
 ```sh
 $ yarn test
 ```
-
-## Related
-
-- [@ovh-ux/rollup-plugin-less-tilde-importer](https://github.com/ovh/rollup-plugin-less-tilde-importer) - Provide ~ (tilde) prefix support.
-
-See more: https://github.com/rollup/plugins.
 
 ## Contributing
 
